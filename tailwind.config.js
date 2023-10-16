@@ -13,7 +13,8 @@ module.exports = {
         '64': '64px', // Add your custom font size
       },
       fontFamily: {
-        'oxanium': ['Oxanium', 'sans'], // 'sans' is a generic fallback font-family
+        'oxanium': 'Oxanium',
+        'lato' : 'lato'
       },
       fontWeight: {
         '600': '600',

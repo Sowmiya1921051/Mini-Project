@@ -1,6 +1,7 @@
 import React from 'react';
 import firstImg from '../../assets/Hero/firstImg.svg';
 import secondImg from '../../assets/Hero/secondImg.svg';
+import thirdImg from '../../assets/Hero/thirdImg.svg'
 
 function Hero() {
   return (
@@ -30,9 +31,12 @@ function Hero() {
       </div>
 
       <div className="bg-cover bg-center p-28" style={{ backgroundImage: `url(${secondImg})` }}>
-        
+      
       </div>
-   
+      <div className="absolute top-3/4  w-64">
+          <img src={thirdImg} />
+        </div>
+
     </div>
   );
 }
