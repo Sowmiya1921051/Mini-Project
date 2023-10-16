@@ -5,7 +5,7 @@ import User from '../../assets/Header/thirdImg.svg'
 
 function Header() {
   return (
-    <div className='flex p-4 justify-between items-center'>
+    <div className='flex p-4 justify-between items-center pl-16 pr-16 mr-10'>
       <div className='flex'>
       <img  src={Logo} className='w-10 h-10'/>
       <img src={hihami} className='w-16 h-10 font-bold'/>

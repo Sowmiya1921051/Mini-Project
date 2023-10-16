@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        'violet-black': '#32243c',
+        'violet-black': '#140C1F',
         'violet': '#AD1AAF',
       },
       fontSize: {

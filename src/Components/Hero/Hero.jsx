@@ -4,7 +4,7 @@ function Hero() {
     return (
         
 
-            <div className='p-4 text-white flex items-center justify-between'>
+            <div className='p-4 text-white flex items-center justify-between pl-16 pr-16'>
                 <div >
                     <h1 className='text-4xl w-full text-54 font-oxanium font-400 capitalize break-words'>EXPLORE, CREATE AND<br /> SELL YOUR NFT’S ON<br /> SHIHAMI</h1>
                     <p class="text-white text-25 font-Lato font-thin capitalize break-words mt-4  ">
