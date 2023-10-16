@@ -9,6 +9,15 @@ module.exports = {
         'violet-black': '#32243c',
         'violet': '#AD1AAF',
       },
+      fontSize: {
+        '64': '64px', // Add your custom font size
+      },
+      fontFamily: {
+        'oxanium': ['Oxanium', 'sans'], // 'sans' is a generic fallback font-family
+      },
+      fontWeight: {
+        '600': '600',
+      },
     },
   },
   plugins: [],

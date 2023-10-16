@@ -5,7 +5,7 @@ import User from '../../assets/Header/thirdImg.svg'
 
 function Header() {
   return (
-    <div className='flex p-4 justify-between'>
+    <div className='flex p-4 justify-between items-center'>
       <div className='flex'>
       <img  src={Logo} className='w-10 h-10'/>
       <img src={hihami} className='w-16 h-10 font-bold'/>
@@ -27,7 +27,7 @@ function Header() {
 
       <div className='flex items-center space-x-4'>
        
-        <button className='bg-violet w-32 h-10 text-white '>Connect Wallet</button>
+        <button className='bg-violet w-32 h-10 text-white rounded-lg'>Connect Wallet</button>
         <img src={User} className="w-8 h-12 mx-auto rounded-full" alt='User profile'/>
       </div>
 
