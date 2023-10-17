@@ -1,6 +1,7 @@
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import Wallet from "./Components/Wallet/Wallet";
+import Work from './Components/Work/Work'
 
 export default function App() {
   return (
@@ -8,6 +9,7 @@ export default function App() {
       <Header/>
       <Hero/>
       <Wallet/>
+      <Work/>
     </div>
   )
 }
