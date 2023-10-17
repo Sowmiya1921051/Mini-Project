@@ -4,6 +4,7 @@ import Collection from '../../assets/Work/Collection.svg'
 import Nft from '../../assets/Work/Nft.svg'
 import Sale from '../../assets/Work/Sale.svg'
 import dottedLine from '../../assets/Work/dottedLine.svg'
+import Blur from '../../assets/Work/Blur.svg'
 
 function Work() {
 
@@ -16,15 +17,10 @@ function Work() {
 
   return (
     <div className='text-white mt-20 pl-24 pr-24 p-4'>
-       <div className="text-white text-center mt-28 text-4xl font-oxanium font-medium leading-1.3 break-words">
-            How it works
-        </div>
+        <img className='absolute w-96 ml-96' src={Blur} alt="Background Image" />
+      <h1 className="text-white text-center mt-28 text-4xl font-oxanium font-medium leading-1.3 break-words relative"> How it works  </h1>
 
-
-
-
-
-          <div className='flex justify-around'>
+          <div className='flex justify-around mt-16'>
               {WorkData.map((data, index) => (
 
                   <div key={index}>
@@ -37,7 +33,7 @@ function Work() {
               ))}
           </div>
 
-          <div className='flex justify-between'>
+          <div className='flex justify-around'>
               {WorkData.map((data, index) => (
 
                   <div key={index}>

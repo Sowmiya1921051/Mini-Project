@@ -3,6 +3,7 @@ import firstImg from '../../assets/Hero/firstImg.svg';
 import secondImg from '../../assets/Hero/secondImg.svg';
 import thirdImg from '../../assets/Hero/thirdImg.svg'
 
+
 function Hero() {
   return (
     <div>
