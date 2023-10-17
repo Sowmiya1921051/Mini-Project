@@ -1,3 +1,4 @@
+import Collection from "./Components/Collection/Collection";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import Wallet from "./Components/Wallet/Wallet";
@@ -10,6 +11,7 @@ export default function App() {
       <Hero/>
       <Wallet/>
       <Work/>
+      <Collection/>
     </div>
   )
 }
