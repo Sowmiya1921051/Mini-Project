@@ -3,7 +3,6 @@ import Wallet from '../../assets/Work/Wallet.svg'
 import Collection from '../../assets/Work/Collection.svg'
 import Nft from '../../assets/Work/Nft.svg'
 import Sale from '../../assets/Work/Sale.svg'
-import dottedLine from '../../assets/Work/dottedLine.svg'
 import Blur from '../../assets/Work/Blur.svg'
 
 function Work() {
