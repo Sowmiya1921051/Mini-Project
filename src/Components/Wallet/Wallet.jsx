@@ -25,8 +25,8 @@ function Wallet() {
       <div className="flex space-x-4 items-center justify-between mt-14">
         {imageUrls.map((imageUrl, index) => (
           <div key={index} className=" h-full rounded-lg bg-white bg-opacity-10 p-8">
-            <div className="w-24 h-24 rounded-full bg-white bg-opacity-10 p-4 mb-8">
-              <img className="w-full h-full object-cover rounded-full " src={imageUrl} />
+            <div className="w-40 h-40 rounded-full bg-white bg-opacity-10 p-4 mb-8">
+              <img className=" m-4 w-24 h-24 object-cover rounded-full " src={imageUrl} />
             </div>
             <p className=" text-center font-oxanium capitalize break-words">{names[index]}</p>
           </div>

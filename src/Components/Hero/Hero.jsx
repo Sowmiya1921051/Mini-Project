@@ -33,7 +33,7 @@ function Hero() {
       <div className="bg-cover bg-center p-28" style={{ backgroundImage: `url(${secondImg})` }}>
       
       </div>
-      <div className="absolute top-3/4  w-64">
+      <div className="absolute top-3/4  w-96">
           <img src={thirdImg} />
         </div>
 
