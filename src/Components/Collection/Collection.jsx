@@ -1,3 +1,7 @@
+import React from 'react';
+import { Swiper, SwiperSlide } from 'swiper/react';
+import 'swiper/swiper-bundle.css';
+
 import Image1 from '../../assets/Collection/Image1.svg';
 import Image2 from '../../assets/Collection/Image2.svg';
 import Image3 from '../../assets/Collection/Image3.svg';
@@ -8,17 +12,6 @@ import Image7 from '../../assets/Collection/Image7.svg';
 
 function Collection() {
 
-
-
-  const Images = [
-    { Image: Image1 },
-    { Image: Image2 },
-    { Image: Image3 },
-    { Image: Image4 },
-    { Image: Image5 },
-    { Image: Image6 },
-    { Image: Image7 },
-  ]
 
   return (
     <div className='text-white mt-20 pl-24 pr-24 p-4'>
@@ -39,49 +32,55 @@ function Collection() {
 
 
       <div className='items-center'>
-        <div className='flex relative ml-24 mt-28'>
-          <img
-            className="w-48 absolute mt-16"
-            src={Image4}
-            alt="Image 1"
-          />
-          <img
-            className="w-48 absolute mt-16"
-            alt="Image 7"
-            style={{ marginLeft: '75%' }}
-          />
+  <div className='flex relative ml-24 mt-28'>
+    <img
+      className="w-48 absolute mt-16"  
+      src={Image4}
+      alt="Image 1"
+    />
+    <img
+    src={Image7}
+      className="w-48 absolute mt-16"  
+      alt="Image 7"
+      style={{ marginLeft: '75%' }}
+    />
 
-          <img
-            className="w-56 ml-20 absolute mt-10"
-            alt="Image 2"
-          />
-          <img
-            className="w-56 absolute mt-10"
-            src={Image6}
-            alt="Image 6"
-            style={{ marginLeft: '65%' }}
-          />
+    <img
+    src={Image3}
+      className="w-56 ml-20 absolute mt-10"  
+      alt="Image 2"
+    />
+    <img
+      className="w-56 absolute mt-10"  
+      src={Image6}
+      alt="Image 6"
+      style={{ marginLeft: '65%' }}
+    />
 
-          <img
-            className="w-64 ml-48 absolute mt-5"
-            src={Image2}
-            alt="Image 3"
-          />
+    <img
+      className="w-64 ml-48 absolute mt-5"  
+      src={Image2}
+      alt="Image 3"
+    />
 
-          <img
-            className="w-64 absolute mt-5"
-            src={Image5}
-            alt="Image 5"
-            style={{ marginLeft: '50%' }}
-          />
-        </div>
-        <img
-          className="w-72  relative"
-          src={Image1}
-          alt="Image 4"
-          style={{ marginLeft: '35%' }}
-        />
-      </div>
+    <img
+      className="w-64 absolute mt-5"  
+      src={Image5}
+      alt="Image 5"
+      style={{ marginLeft: '50%' }}
+    />
+  </div>
+  <img
+    className="w-72  relative"  // Increased from w-52 to w-72
+    src={Image1}
+    alt="Image 4"
+    style={{ marginLeft: '35%' }}
+  />
+</div>
+
+
+
+
 
     </div>
   );
