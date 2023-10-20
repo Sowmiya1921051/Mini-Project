@@ -5,7 +5,7 @@ import Image2 from '../../assets/Trending/Image2.svg';
 import Image3 from '../../assets/Trending/Image3.svg';
 import Image4 from '../../assets/Trending/Image4.svg';
 import Like from '../../assets/Trending/Like.svg';
-import userProfile from "../../assets/Trending/userProfile.svg";
+import userProfile from "../../assets/Trending/user.svg";
 import Ethereum from '../../assets/Trending/Ethereum.svg';
 
 function Auction() {
