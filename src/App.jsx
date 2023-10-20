@@ -1,3 +1,4 @@
+import Auction from "./Components/Auction/Auction";
 import Collection from "./Components/Collection/Collection";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
@@ -15,6 +16,7 @@ export default function App() {
       <Work/>
       <Collection/>
       <Trending/>
+      <Auction/>
     </div>
   )
 }
