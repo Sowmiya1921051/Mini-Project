@@ -32,51 +32,51 @@ function Collection() {
 
 
       <div className='items-center'>
-  <div className='flex relative ml-24 mt-28'>
-    <img
-      className="w-48 absolute mt-16"  
-      src={Image4}
-      alt="Image 1"
-    />
-    <img
-    src={Image7}
-      className="w-48 absolute mt-16"  
-      alt="Image 7"
-      style={{ marginLeft: '75%' }}
-    />
+        <div className='flex relative ml-24 mt-28'>
+          <img
+            className="w-48 absolute mt-16 "
+            src={Image4}
+            alt="Image 1"
+          />
+          <img
+            src={Image7}
+            className="w-48 absolute mt-16"
+            alt="Image 7"
+            style={{ marginLeft: '75%' }}
+          />
 
-    <img
-    src={Image3}
-      className="w-56 ml-20 absolute mt-10"  
-      alt="Image 2"
-    />
-    <img
-      className="w-56 absolute mt-10"  
-      src={Image6}
-      alt="Image 6"
-      style={{ marginLeft: '65%' }}
-    />
+          <img
+            src={Image3}
+            className="w-56 ml-20 absolute mt-10"
+            alt="Image 2"
+          />
+          <img
+            className="w-56 absolute mt-10"
+            src={Image6}
+            alt="Image 6"
+            style={{ marginLeft: '65%' }}
+          />
 
-    <img
-      className="w-64 ml-48 absolute mt-5"  
-      src={Image2}
-      alt="Image 3"
-    />
+          <img
+            className="w-64 ml-48 absolute mt-5"
+            src={Image2}
+            alt="Image 3"
+          />
 
-    <img
-      className="w-64 absolute mt-5"  
-      src={Image5}
-      alt="Image 5"
-      style={{ marginLeft: '50%' }}
-    />
-  </div>
-  <img
-    className="w-72  relative"  // Increased from w-52 to w-72
-    src={Image1}
-    alt="Image 4"
-    style={{ marginLeft: '35%' }}
-  />
-</div>
+          <img
+            className="w-64 absolute mt-5"
+            src={Image5}
+            alt="Image 5"
+            style={{ marginLeft: '50%' }}
+          />
+        </div>
+        <img
+          className="w-72  relative"  // Increased from w-52 to w-72
+          src={Image1}
+          alt="Image 4"
+          style={{ marginLeft: '35%' }}
+        />
+      </div>
 
 
 
