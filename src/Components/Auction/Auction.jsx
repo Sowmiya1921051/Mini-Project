@@ -25,8 +25,8 @@ function Auction() {
             <img src={thirdImg} className='absolute bottom-1/4 ' />
             <div className='text-white mt-40 pl-24 pr-24 p-4'>
 
-                <p className='text-white text-lg font-thin text-capitalize overflow-wrap'>Watch and Follow Celebrities To Get The Best Collection Of NFTs</p>
-                <h1 className='text-7xl font-oxanium font-medium mt-7'>Joined Influencers</h1>
+                <p className='text-white text-lg font-thin text-capitalize overflow-wrap'>Most Appreciated NFTs On Sale For the day</p>
+                <h1 className='text-7xl font-oxanium font-medium mt-7'>Live Auction NFTs </h1>
 
                 <div className='flex'>
                     <button className='w-44 h-full bg-rgba-pink-05 border border-violet font-oxanium p-2 mt-5 ml-auto mr-10'>View all</button>
