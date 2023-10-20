@@ -1,6 +1,7 @@
 import Auction from "./Components/Auction/Auction";
 import Collection from "./Components/Collection/Collection";
 import Drop from "./Components/Drop/Drop";
+import Footer from "./Components/Footer/Footer";
 import Header from "./Components/Header/Header";
 import Hero from "./Components/Hero/Hero";
 import Influencers from "./Components/Influencers/Influencers";
@@ -21,6 +22,7 @@ export default function App() {
       <Auction/>
       <Influencers/>
       <Drop/>
+      <Footer/>
     </div>
   )
 }

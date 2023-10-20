@@ -8,13 +8,15 @@ module.exports = {
       colors: {
         'violet-black': '#140C1F',
         'violet': '#AD1AAF',
+        'light-color':'#96839B',
       },
       fontSize: {
         '64': '64px', // Add your custom font size
       },
       fontFamily: {
         'oxanium': 'Oxanium',
-        'lato' : 'lato'
+        'lato' : 'lato',
+        'Work Sans' : 'Work Sans',
       },
       fontWeight: {
         '600': '600',
