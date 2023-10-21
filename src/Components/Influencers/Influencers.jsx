@@ -43,14 +43,14 @@ function Influencers() {
 
                 <div className='flex flex-wrap'>
                     {InfluenceData.map(({ first, second, third }, index) => (
-                        <div className='bg-white bg-opacity-5 rounded-lg p-4 w-72 ml-5 mt-12' key={index}>
+                        <div className='bg-white bg-opacity-5 rounded-lg p-4 w-72 ml-5 mt-12 hover:transform hover:scale-110 cursor-pointer' key={index}>
                             <div className='flex justify-between'>
-                                <img className='w-36 h-36 relative' src={first} />
+                                <img className='w-36 h-36 ' src={first} />
                                 <img className='w-36 h-36 ml-1' src={second} />
                             </div>
 
                             <div>
-                                <img className='absolute top-0 w-16 ml-7' src={third} style={{ marginTop: '26%' }} />
+                                <img className=' top-0 w-16 ml-7' src={third} style={{ marginTop: '-12%' }} />
                             </div>
 
                             <div className='flex mt-12'>
