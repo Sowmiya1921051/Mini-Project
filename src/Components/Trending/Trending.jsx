@@ -35,7 +35,7 @@ function Trending() {
 
                 <div className='flex flex-wrap'>
                     {Images.map((item, index) => (
-                        <div className='bg-white bg-opacity-5 rounded-lg p-4 w-72 mt-12 ml-5' key={index}>
+                         <div className="bg-white bg-opacity-5 rounded-lg p-4 w-72 mt-12 ml-5 group hover:shadow-md hover:scale-110 transition duration-300" key={index}>
                             <div className="relative w-64">
                                 <img src={item.image} alt="Your Image" />
                                 <div className="absolute top-0 left-0 flex p-2 ml-48 bg-white bg-opacity-5 rounded-tr-lg rounded-bl-lg">
