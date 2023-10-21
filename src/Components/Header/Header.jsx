@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../../assets/Header/firstImg.svg"
+import Logo from "../../assets/Header/firstImg.png"
 import hihami from '../../assets/Header/secondImg.svg'
 import User from '../../assets/Header/thirdImg.svg'
 
@@ -7,8 +7,8 @@ function Header() {
   return (
     <div className='flex p-4 justify-between items-center pl-24 pr-24 mr-10'>
       <div className='flex'>
-      <img  src={Logo} className='w-10 h-10'/>
-      <img src={hihami} className='w-16 h-10 font-bold'/>
+      <img  src={Logo} className='w-16 h-16'/>
+      <img src={hihami} className='w-16 h-10 font-bold mt-3'/>
       {/* <hi className="text-white font-bold mt-1.5">HIHAMI</hi> */}
       </div>
       

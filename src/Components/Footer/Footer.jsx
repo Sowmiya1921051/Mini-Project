@@ -32,8 +32,8 @@ function Footer() {
             <div className='flex justify-between'>
 
                 <div className='flex'>
-                    <img src={Logo} className='w-14 h-14' />
-                    <h1 className="font-bold mt-3 text-3xl font-oxanium">HIHAMI</h1>
+                <img  src={Logo} className='w-16 h-16'/>
+                    <h1 className="font-bold mt-4 text-3xl font-oxanium">HIHAMI</h1>
                 </div>
 
                 <div>
