@@ -1,5 +1,5 @@
 import React from 'react'
-import Logo from "../../assets/Header/firstImg.png"
+import Logo from "../../assets/Header/firstImg.svg"
 import hihami from '../../assets/Header/secondImg.svg'
 import User from '../../assets/Header/thirdImg.svg'
 
